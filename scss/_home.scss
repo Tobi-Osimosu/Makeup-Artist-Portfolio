@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url("../img/Hero.svg") center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+
+  &__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 21px;
+  }
+
+  .btn {
+    background: #2b7a78;
+    color: #ffffff;
+    padding: 15px 57px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home {
+    background: url("../img/Hero.svg") center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__text {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 85px;
+      margin-bottom: 34px;
+    }
+
+    .btn {
+      padding: 20px 82px;
+      font-weight: bold;
+    }
+  }
+}

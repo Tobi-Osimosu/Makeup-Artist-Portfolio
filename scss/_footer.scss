@@ -1,0 +1,41 @@
+footer {
+  color: #ffffff !important;
+  background: #1f252a !important;
+
+  .container {
+    padding-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 0 !important;
+  }
+
+  .footer-brand {
+    padding-top: 15px;
+  }
+
+  .social-icons {
+    padding-top: 15.64px;
+  }
+
+  .copyright {
+    padding-top: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    .footer-brand {
+      padding-top: 0;
+    }
+
+    .container {
+      padding-top: 39px;
+      padding-bottom: 39px;
+    }
+
+    .copyright {
+      padding-top: 0;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.gallery {
+  &__header {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #7a7a7a;
+  }
+
+  .carousel {
+    padding-bottom: 51px;
+    // height: 600px;
+  }
+
+  // .carousel-item {
+  //   height: 500px;
+  // }
+
+  // .carousel-item img {
+  //   height: 500px;
+  // }
+}
+
+@media (min-width: 992px) {
+  .gallery {
+    &__header {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 64px;
+      padding-bottom: 51px;
+      text-align: center;
+    }
+
+    .of {
+      object-fit: cover;
+    }
+
+    .btn {
+      background: #2b7a78;
+      border-radius: 5px !important;
+      color: #ffffff !important;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      padding: 20px 82px !important;
+      margin-top: 63px;
+    }
+  }
+}

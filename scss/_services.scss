@@ -1,0 +1,137 @@
+.services {
+  &__header {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #7a7a7a;
+    text-align: center;
+  }
+
+  .col-12,
+  .col-md-7,
+  .col-md-5 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  &__img {
+    position: relative;
+    // border-bottom: 5px solid #ff6527;
+    // overflow: hidden;
+    // height: 499px;
+    // padding-bottom: 25px;
+
+    div {
+      // position: relative;
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      &:hover,
+      &:active,
+      &:focus {
+        &::after {
+          top: 0;
+          opacity: 0.8;
+        }
+
+        .services__text {
+          opacity: 1;
+        }
+      }
+    }
+
+    // img {
+    //   height: 366px;
+    //   cursor: pointer;
+    //   // object-fit: cover;
+    // }
+
+    .services-img-1 {
+      position: relative;
+      background: url("../img/services-img-1.svg") center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 366px;
+      margin-bottom: 25px;
+    }
+    .services-img-2 {
+      position: relative;
+      background: url("../img/services-img-2.svg") center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 366px;
+      margin-bottom: 25px;
+    }
+    .services-img-3 {
+      position: relative;
+      background: url("../img/services-img-3.svg") center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 366px;
+      margin-bottom: 25px;
+    }
+    .services-img-4 {
+      position: relative;
+      background: url("../img/services-img-4.svg") center top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 366px;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__text {
+    // height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0;
+    z-index: 5;
+    transition: opacity 0.5s ease-in-out;
+  }
+}
+
+@media (min-width: 992px) {
+  .services {
+    &__header {
+      padding-top: 63px;
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    .col-12,
+    .col-md-7,
+    .col-md-5 {
+      padding-right: 15px !important;
+      padding-left: 15px !important;
+    }
+
+    &__text {
+      font-size: 40px;
+      line-height: 53px;
+    }
+  }
+}

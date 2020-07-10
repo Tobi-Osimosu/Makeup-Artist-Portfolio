@@ -1,0 +1,122 @@
+.contact {
+  .form-header {
+    padding-top: 43px;
+    padding-bottom: 43px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.265em;
+    color: #7a7a7a;
+  }
+
+  .form-group {
+    margin-bottom: 36px !important;
+  }
+
+  .form-control {
+    background-color: #e5e5e5 !important;
+    border: 3px solid #2b7a78 !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding: 0 0 10px 0;
+    border-radius: 0 !important;
+    font-size: 14px;
+    line-height: 19px;
+
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+
+  .btn {
+    background-color: #2b7a78 !important;
+    color: #ffffff !important;
+    padding: 14px 74px !important;
+    // margin-top: 51px !important;
+    border-radius: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 44px;
+  }
+}
+
+.contact-border {
+  margin-top: 30px;
+  border: 5px solid #2b7a78;
+}
+
+.cbg-green {
+  background: #2b7a78;
+  color: #ffffff;
+  margin-top: 25px;
+}
+
+.contact-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.265em;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 41px;
+}
+
+.contact-number,
+.contact-email,
+.contact-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.contact-address {
+  margin-bottom: 134px !important;
+}
+
+@media (min-width: 992px) {
+  .contact {
+    .form-header {
+      padding-top: 30px;
+      padding-bottom: 43px;
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+
+  .contact-header {
+    padding-top: 30px;
+    padding-bottom: 41px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .contact-border {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .contact-number,
+  .contact-email,
+  .contact-address {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .cbg-green {
+    margin-top: 0;
+  }
+
+  .form-control {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
