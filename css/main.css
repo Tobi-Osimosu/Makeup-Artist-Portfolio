@@ -63,8 +63,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/Hero.svg") center top;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/Hero.svg") center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img2/hero.jpg") center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img2/hero.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -89,9 +89,16 @@ body {
   font-size: 24px;
 }
 
+.home .btn:hover,
+.home .btn:active,
+.home .btn:focus {
+  background: #ffffff;
+  color: #2b7a78;
+}
+
 @media (min-width: 992px) {
   .home {
-    background: url("../img/Hero.svg") center top;
+    background: url("../img2/hero.jpg") center top;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -110,12 +117,6 @@ body {
 
 .container {
   width: 89% !important;
-}
-
-.about__img-border {
-  border: 20px solid #333333;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .about__header {
@@ -148,21 +149,6 @@ body {
   .about .padding {
     padding-top: 68px;
     margin-bottom: 138px;
-  }
-  .about__img-border {
-    position: relative;
-    border: 20px solid #333333;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 500px;
-    height: 412px;
-  }
-  .about img {
-    position: absolute;
-    top: 30px;
-    left: 45px;
-    width: 500px;
-    height: 412px;
   }
   .about__header {
     padding-top: 32px;
@@ -207,6 +193,41 @@ body {
   .gallery .of {
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .gallery .g-img-1 {
+    background: url("../img/gallery-image-1.svg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery .g-img-2 {
+    background: url("../img/gallery-image-2.svg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery .g-img-3 {
+    background: url("../img/gallery-image-3.svg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery .g-img-4 {
+    background: url("../img/gallery-image-4.svg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery .g-img-5 {
+    background: url("../img/gallery-image-5.svg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery .g-img-6 {
+    background: url("../img/gallery-image-6.svg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .gallery .g-img-7 {
+    background: url("../img/gallery-image-7.svg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .gallery .btn {
     background: #2b7a78;
@@ -273,7 +294,7 @@ body {
 
 .services__img .services-img-1 {
   position: relative;
-  background: url("../img/services-img-1.svg") center top;
+  background: url("../img2/production.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 366px;
@@ -282,7 +303,7 @@ body {
 
 .services__img .services-img-2 {
   position: relative;
-  background: url("../img/services-img-2.svg") center top;
+  background: url("../img2/celeb.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 366px;
@@ -291,7 +312,7 @@ body {
 
 .services__img .services-img-3 {
   position: relative;
-  background: url("../img/services-img-3.svg") center top;
+  background: url("../img2/home-makeover.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 366px;
@@ -300,7 +321,7 @@ body {
 
 .services__img .services-img-4 {
   position: relative;
-  background: url("../img/services-img-4.svg") center top;
+  background: url("../img2/wedding.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 366px;
@@ -530,8 +551,8 @@ body {
 
 .keep-in-touch .KIT-img-1 {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/KIT1.svg") center top;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/KIT1.svg") center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img2/celeb.jpg") center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img2/celeb.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 154.2px;
@@ -539,8 +560,8 @@ body {
 
 .keep-in-touch .KIT-img-2 {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/KIT2.svg") center top;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/KIT2.svg") center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img2/home-makeover.jpg") center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img2/home-makeover.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 154.2px;
@@ -548,8 +569,8 @@ body {
 
 .keep-in-touch .KIT-img-3 {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/KIT3.svg") center top;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/KIT3.svg") center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img2/production.jpg") center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img2/production.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 154.2px;
@@ -557,8 +578,8 @@ body {
 
 .keep-in-touch .KIT-img-4 {
   position: relative;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img/KIT4.svg") center top;
-  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img/KIT4.svg") center top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../img2/wedding.jpg") center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../img2/wedding.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   height: 154.2px;

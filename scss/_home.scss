@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.5)),
-    url("../img/Hero.svg") center top;
+    url("../img2/hero.jpg") center top;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -29,11 +29,18 @@
     font-weight: 500;
     font-size: 24px;
   }
+
+  .btn:hover,
+  .btn:active,
+  .btn:focus {
+    background: #ffffff;
+    color: #2b7a78;
+  }
 }
 
 @media (min-width: 992px) {
   .home {
-    background: url("../img/Hero.svg") center top;
+    background: url("../img2/hero.jpg") center top;
     background-repeat: no-repeat;
     background-size: cover;
 

@@ -3,13 +3,6 @@
 }
 
 .about {
-  &__img-border {
-    border: 20px solid #333333;
-    box-sizing: border-box;
-  }
-
-  // &__img {
-  // }
 
   &__header {
     padding-top: 80px;
@@ -42,22 +35,6 @@
     .padding {
       padding-top: 68px;
       margin-bottom: 138px;
-    }
-
-    &__img-border {
-      position: relative;
-      border: 20px solid #333333;
-      box-sizing: border-box;
-      width: 500px;
-      height: 412px;
-    }
-
-    img {
-      position: absolute;
-      top: 30px;
-      left: 45px;
-      width: 500px;
-      height: 412px;
     }
 
     &__header {
